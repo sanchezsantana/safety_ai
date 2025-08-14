@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Colab temporary files
+*.ipynb.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.bin
+
+# Large data files
+*.csv
+*.tsv
+*.jsonl
+
+# Storage folders (exclude persistent DB)
+vdb/storage_vdb/
+fine_tuning/logs/
+fine_tuning/checkpoints/
+
+# Neo4j exports
+gdb/exports/
