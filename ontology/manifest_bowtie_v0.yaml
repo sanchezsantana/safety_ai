@@ -1,0 +1,14 @@
+manifest_id: MANIFEST_BOWTIE_VDB_V1
+version: '1.0'
+document_type: Estándar técnico - Bow Tie
+riesgos:
+- doc_id: DOC0040
+  filename: BowTie_Caida_Altura_VDB_v1
+  yaml_filename: bowtie_caida_altura_v1.yaml
+- doc_id: DOC0041
+  filename: BowTie_Contacto_Energia_VDB_v1
+  yaml_filename: bowtie_contacto_energia_v1.yaml
+- doc_id: DOC0042
+  filename: BowTie_Caida_Objetos_VDB_v1
+  yaml_filename: bowtie_caida_objetos_v1.yaml
+ruta_archivos: ontology/

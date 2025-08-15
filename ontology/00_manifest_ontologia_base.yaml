@@ -1,0 +1,11 @@
+batch_id: batch_ontologia_v3
+date_indexed: '2025-05-31'
+embedding_model: MiniLM
+excluded_files:
+- 23_manifest_bowtie_v0.yaml
+- 24_yaml_index_v0.md
+- 00_manifest_ontologia_base_v0.yaml
+- 22_manifest_roles_0.yaml
+indexed_docs: 21
+llm_model: N/A
+notes: Indexación completa usando MiniLM en entorno local.

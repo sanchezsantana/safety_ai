@@ -1,0 +1,91 @@
+batch_id: vdb_batch_01
+fecha: '2025-07-25'
+descripcion: Versión consolidada del sistema de generación de datos sintéticos en
+  seguridad minera.
+documentos_yamls:
+- nombre: 01_riesgos.yaml
+  version: 1.0
+  descripcion: Lista de riesgos principales con eventos, consecuencias y controles
+    críticos.
+- nombre: 02_controles_criticos.yaml
+  version: 1.0
+  descripcion: Catálogo transversal de controles críticos por riesgo, con referencia
+    cruzada al BowTie.
+- nombre: 03_bowtie_caida_altura.yaml
+  version: 1.0
+  descripcion: BowTie del riesgo Caída de Altura.
+- nombre: 04_bowtie_caida_objetos.yaml
+  version: 1.0
+  descripcion: BowTie del riesgo Caída de Objetos.
+- nombre: 05_bowtie_contacto_energia.yaml
+  version: 1.0
+  descripcion: BowTie del riesgo Contacto con Energía.
+- nombre: 06_roles_tareas_riesgos_mina_rajo_abierto_con_id.yaml
+  version: 1.0
+  descripcion: Roles, tareas y riesgos para Mina Rajo Abierto.
+- nombre: 07_roles_tareas_riesgos_chancado_primario_con_id.yaml
+  version: 1.0
+  descripcion: Roles, tareas y riesgos para Planta de Chancado Primario.
+- nombre: 08_roles_tareas_riesgos_taller_mant_electrico_con_id.yaml
+  version: 1.0
+  descripcion: Roles, tareas y riesgos para Taller de Mantenimiento Eléctrico.
+- nombre: 09_roles_tareas_riesgos_transporte_mecanizado_con_id.yaml
+  version: 1.0
+  descripcion: Roles, tareas y riesgos para Sistema de Transporte Mecanizado.
+- nombre: 10_roles_tareas_riesgos_concentradora_con_id.yaml
+  version: 1.0
+  descripcion: Roles, tareas y riesgos para Planta Concentradora.
+- nombre: 11_estructura_incidentes.yaml
+  version: 1.0
+  descripcion: Formato estructurado para análisis y registro de incidentes (IMAY,
+    IMEN, NMS, PELI).
+- nombre: 12_estructura_observaciones.yaml
+  version: 1.0
+  descripcion: Formato estructurado para observaciones preventivas generales y de
+    control crítico.
+- nombre: 13_tipos_incidente.yaml
+  version: 1.0
+  descripcion: Clasificación de tipos de incidentes por severidad y naturaleza.
+- nombre: 14_tipos_observacion.yaml
+  version: 1.0
+  descripcion: Clasificación de tipos de observaciones de seguridad.
+- nombre: 15_formatos_analisis.yaml
+  version: 1.0
+  descripcion: Definición formal de métodos de análisis utilizados (ICAM, 5 Whys,
+    Observación Técnica).
+- nombre: 16_icam.yaml
+  version: 1.0
+  descripcion: Estructura del análisis ICAM con categorías y ejemplos típicos por
+    factor causal.
+- nombre: 17_acciones_correctivas.yaml
+  version: 1.0
+  descripcion: Acciones correctivas típicas clasificadas por riesgo, tipo de incidente
+    u observación.
+- nombre: 18_niveles_severidad.yaml
+  version: 1.0
+  descripcion: Umbrales y criterios de severidad aplicables a eventos de seguridad.
+- nombre: 19_peligros_detectados.yaml
+  version: 1.0
+  descripcion: Lista estandarizada de condiciones peligrosas observadas en terreno,
+    con clasificación y riesgo asociado.
+- nombre: 20_glosario_seguridad.yaml
+  version: 1.0
+  descripcion: Glosario técnico de términos y acrónimos clave del sistema de seguridad.
+- nombre: 21_areas_operacionales.yaml
+  version: 1.0
+  descripcion: Áreas clave operativas de una faena minera y sus características.
+- nombre: 22_manifest_roles.yaml
+  version: 1.0
+  descripcion: Registro de versiones y estructura de los archivos de roles.
+- nombre: 23_manifest_bowtie.yaml
+  version: 1.0
+  descripcion: Registro de versiones y estructura de los archivos BowTie.
+- nombre: 25_yaml_index.md
+  version: 1.0
+  descripcion: Índice técnico y documentación funcional de todos los YAML del sistema.
+modelo_llm: gemma:7b
+modelo_embedding: BAAI/bge-m3
+origen_datos: Generación de ontología base para simulación sintética estructurada.
+manifiestos_complementarios:
+- 22_manifest_roles.yaml
+- 23_manifest_bowtie.yaml
