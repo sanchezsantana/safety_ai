@@ -173,9 +173,3 @@ Example user queries:
 
 ---
 
-## ✨ Contributions
-
-This project is part of **Day-tuh.ai**, focused on **AI-driven mining safety**.  
-Contributions, improvements, and orchestration ideas are welcome.  
-
----
