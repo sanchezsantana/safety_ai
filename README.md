@@ -12,8 +12,8 @@ The repository is organized into four core modules:
 
 1. **VDB (Vector Database)**
    - Ontology ingestion from YAML files.
-   - Embedding generation (e.g., `BAAI/bge-m3`, `MiniLM`).
-   - Persistent storage using ChromaDB.
+   - Embedding generation unisg `BAAI/bge-m3`.
+   - Persistent storage using Qdrant.
    - Modular parsers for different ontology entities.
 
 2. **GDB (Graph Database)**
@@ -27,7 +27,7 @@ The repository is organized into four core modules:
    - Retrieval-augmented reasoning for mining safety queries.
 
 4. **Fine-tuning**
-   - Domain adaptation of LLMs (e.g., Gemma 2B) using synthetic and real safety data.
+   - Domain adaptation of LLMs (e.g., Gemma 3B) using synthetic and real safety data.
    - LoRA/QLoRA for resource-efficient training.
    - Dataset generation based on incidents, near-misses, and observations.
 
