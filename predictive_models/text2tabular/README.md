@@ -1,7 +1,11 @@
 # Text2Tabular: Embeddings and Structured Extraction
 
-This module transforms **synthetic narratives (text)** into **structured tabular data** aligned with the mining safety ontology.  
-It is designed to simulate real-world conditions where client data often exists only as **textual reports**, not structured tables.
+This module provides the first realistic exercise in **information extraction** from synthetic reports, observations, and incidents following the structured formats defined in the ontology.  
+It is designed to test and refine the **logic and approaches** needed to transform textual narratives into structured tabular data.  
+
+Later, when real client data becomes available, this module will serve as the foundation for extracting information from real reports and **feeding predictive models** with structured inputs.  
+This makes `text2tabular` a critical component for ensuring that the platform can handle unstructured or semi-structured safety data in production environments.
+
 
 ---
 
