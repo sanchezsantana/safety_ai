@@ -8,14 +8,17 @@ All predictive outputs are integrated with the **QA Agent**, which acts as the i
 ---
 
 ## 📌 Objectives
-- Provide a **sandbox (Year-0)**: a synthetic year of observations, incidents, and interventions that serves as the baseline for model testing.
-- Develop **synthetic data generators** for observations, incidents, and trajectories using the safety ontology and LLMs.
-- Implement **four predictive approaches**:
-  1. **Regression models**: quantify relationships between leading indicators and the probability of incidents.
-  2. **Clustering methods**: discover patterns of degradation and risk evolution.
-  3. **Leading indicators**: define and test thresholds/rules for early warning.
-  4. **Trajectory-based models**: model sequences of observations and events (HMMs, transformers) to anticipate high-potential incidents.
-- Ensure that **all predictions and analyses are queryable via the QA Agent**, enabling real-time interaction and interpretability.
+- Provide a **sandbox (Year-0)**: a synthetic year of observations, incidents, and interventions that serves as the baseline for model testing.  
+  - Predictive models **do not access the predefined trajectories directly**; they only see daily tabular data and must **discover patterns** by themselves.  
+- Develop **synthetic data generators** for observations, incidents, and trajectories using the safety ontology and LLMs.  
+  - The **first batch of synthetic data** is generated to **replicate Year-0 in textual form** (reports, observations, incidents).  
+  - Synthetic narratives are embedded with **BGE (bge-m3)** and **tabulated** to ensure alignment with the Year-0 structure before generating new scenarios.  
+- Implement **four predictive approaches**:  
+  1. **Regression models**: quantify relationships between leading indicators and the probability of incidents.  
+  2. **Clustering methods**: discover patterns of degradation and risk evolution.  
+  3. **Leading indicators**: define and test thresholds/rules for early warning.  
+  4. **Trajectory-based models**: model sequences of observations and events (HMMs, transformers) to anticipate high-potential incidents.  
+- Ensure that **all predictions and analyses are queryable via the QA Agent**, enabling real-time interaction, visualization, and interpretability.  
 
 ---
 
